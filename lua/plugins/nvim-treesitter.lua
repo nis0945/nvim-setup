@@ -13,6 +13,9 @@ return {
             node_decremental = "grm",
           },
         },
+        inlay_hints = {
+            inline = false,
+        },
         textobjects = {
           select = {
             enable = true,
