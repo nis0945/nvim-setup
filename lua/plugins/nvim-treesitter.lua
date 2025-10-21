@@ -1,6 +1,7 @@
 return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
+    event = { "BufNewFile", "BufReadPost" },
     opts = {
         ensure_installed = { "cpp", "javascript", "typescript" },
         highlight = { enable = true },
@@ -27,6 +28,7 @@ return {
             },
           },
         },
+        highlight = { enable = true },
         indent = { enable = true },
     },
     config = function (LazyPlugin, opts)
