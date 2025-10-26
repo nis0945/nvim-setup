@@ -35,12 +35,10 @@ return {
 
     -- (Default) Only show the documentation popup when manually triggered
     completion = {
-        menu = { border = 'single' },
         documentation = {
-            border = 'single',
-            auto_show = false 
+            window = { border = 'single' },
+            auto_show = false
         },
-        signature = { enabled = true, window = { border = 'single' } }
     },
 
     -- Default list of enabled providers defined so that you can extend it
