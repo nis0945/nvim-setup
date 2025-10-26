@@ -18,6 +18,7 @@ vim.api.nvim_set_hl(0, "Normal", {guibg=NONE, ctermbg=NONE})
 -- # UI
 vim.o.termguicolors = true
 vim.o.laststatus = 0
+vim.opt.wrap = false
 
 -- # Shell
 vim.o.shell = "powershell.exe"
