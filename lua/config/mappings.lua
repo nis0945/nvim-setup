@@ -13,7 +13,6 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move to right window" })
 vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]], { noremap = true, silent = true, desc = "Escape terminal mode" })
 
 -- # Application shortcuts
--- vim.keymap.set("n", "<leader>qq", "<cmd>qa<CR>", { desc = "Quit Neovim" })
 vim.keymap.set(
     "n",
     "<leader>qq",
