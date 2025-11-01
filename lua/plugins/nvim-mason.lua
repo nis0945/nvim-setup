@@ -1,6 +1,6 @@
 return {
-    "mason-org/mason.nvim",
-    opts = {
-        ensure_installed = { "clangd" }
-    }
+	"mason-org/mason.nvim",
+	opts = {
+		ensure_installed = { "clangd" },
+	},
 }
